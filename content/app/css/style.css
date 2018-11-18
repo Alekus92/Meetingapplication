@@ -1,0 +1,152 @@
+/**  Glowna strona **/
+body {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 2em;
+  position: relative;
+  background-color: black;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+/**  Header Navigation **/
+
+header .navbar {
+  margin-bottom: 0;
+}
+
+header .navbar-default {
+  background-color: tomato;
+  border: none;
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+/**  Navbar Brand **/
+
+header .navbar-brand {
+  background: url(../images/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: 15px 5px;
+}
+
+header .navbar-brand h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-left: 70px;
+}
+
+.main {
+  background: white;
+  padding: 30px 0;
+}
+/**  Footer **/
+
+footer {
+  background: black;
+  color: white;
+  font-size: 0.8em;
+  padding: 20px 0 40px 0;
+}
+
+footer .navbar-default {
+  background-color: transparent;
+  border: none;
+  margin-right: 40px;
+}
+
+footer .navbar-nav > li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-decoration: underline;
+  color: white !important;
+}
+
+/**  Interface Styles **/
+
+.apt-addheading {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; /* IE 10+ */
+}
+
+.item-list {
+  list-style-type: none;
+  margin: 30px 10%;
+  font-size: 1rem;
+}
+
+.item-list .patient-item {
+  border-bottom: 2px dotted black;
+  padding-bottom: 20px;
+}
+
+.item-list .patient-item:last-child {
+  border-bottom: none;
+}
+
+.item-list .patient-name {
+  font-weight: 600;
+  color: lightcoral;
+  font-size: 1.3em;
+  line-height: 100%;
+}
+
+.item-list .patient-info {
+  font-size: 1.6em;
+}
+
+.item-list .label-item {
+  font-weight: 700;
+  color: lightcoral;
+}
+
+.item-list .apt-date {
+  font-style: italic;
+}
+
+.search-appointments .input-group-btn {
+  color: lightcoral;
+}
+.caret {
+  color: black;
+}
+
+/* .panel-heading .apt-addheading {
+  color: tomato;
+} */
+
+.panel-primary {
+  border-color: tomato;
+}
+.panel-primary .panel-heading {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.btn-primary {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.btn-primary:hover {
+  background-color: tomato;
+  border-color: white;
+}
+
+.btn-primary:active {
+  background-color: tomato;
+  border-color: black;
+}
